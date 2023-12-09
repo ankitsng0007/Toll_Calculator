@@ -1,7 +1,7 @@
 import axios, {} from 'axios';
 
-export const calculateToll = (startLocation, endLocation) =>{
-    async(dispatch) => {
+export const calculateToll = (startLocation, endLocation) => 
+    async (dispatch) => {
         try{
             const response = await axios.get(`https://`);
             dispatch({
@@ -16,4 +16,3 @@ export const calculateToll = (startLocation, endLocation) =>{
             });
         }
     };
-}
