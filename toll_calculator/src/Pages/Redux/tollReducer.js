@@ -6,7 +6,7 @@ const initialSate = {
 };
 const tollReducer = (state=initialSate, action) => {
     switch(action.type){
-        case 'CALCULATE_TOLL_SUCESS' :
+        case 'CALCULATE_TOLL_SUCCESS' :
             return {
                 amount: action.payload,
                 error: null,
