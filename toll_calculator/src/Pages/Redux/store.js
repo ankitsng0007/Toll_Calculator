@@ -1,6 +1,6 @@
 // store.js
 import { applyMiddleware, createStore } from 'redux';
-import thunk from 'redux-thunk'; // Use Redux Thunk for async actions if needed
+import  { thunk } from 'redux-thunk' 
 import rootReducer from './tollReducer';
 
 
